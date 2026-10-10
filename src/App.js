@@ -55,7 +55,6 @@ function App() {
     : '';
 
   const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
-  const fallingOffset = Math.min(wrongCount * 22, 210);
   const finalImpactOffset = 210;
   const fallingTranslate = isGameOver ? finalImpactOffset : Math.min(wrongCount * 22, finalImpactOffset - 10);
 
